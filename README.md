@@ -32,8 +32,8 @@ This project implements a simple **16-bit RISC-based processor** using Verilog H
 │   ├── regfile_unittest.v    # Unit test for reg_file
 │   ├── main_test.v           # Full system simulation testbench
 │
-├── Screenshots/              # (Optional) Waveform images or outputs
-├── 16_bit_Processor.xpr      # Vivado project file (optional)
+├── Screenshots/              #  Waveform images or outputs
+├── 16_bit_Processor.xpr      # Vivado project file
 ├── README.md                 # Project documentation 
 ```
 
@@ -73,7 +73,7 @@ This project implements a simple **16-bit RISC-based processor** using Verilog H
 4. Run behavioral simulation
 5. Observe waveform, debug signals, and verify processor behavior
 
-## 🖼️ Sample Output (Optional)
+## 🖼️ Sample Output
 
 You can include simulation waveforms or execution results in the `Screenshots/` folder, for example:
 - Register file updates
