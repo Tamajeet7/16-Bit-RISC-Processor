@@ -15,7 +15,7 @@ This project implements a simple 16-bit RISC (Reduced Instruction Set Computer) 
 
 ## 📂 Project Structure
 
-├── Design/ # All core Verilog modules
+'''├── Design/ # All core Verilog modules
 │ ├── alu.v # ALU: arithmetic and logical operations
 │ ├── ctrl_unit.v # Control Unit: FSM-based stage control
 │ ├── fake_ram.v # Simulated RAM for instruction/data
@@ -30,7 +30,7 @@ This project implements a simple 16-bit RISC (Reduced Instruction Set Computer) 
 │
 ├── Screenshots/ # (Optional) Waveform images or outputs
 ├── 16_bit_Processor.xpr # Vivado project file (optional)
-├── README.md # Project documentation
+├── README.md # Project documentation'''
 
 
 ## ⚙️ Modules Overview
