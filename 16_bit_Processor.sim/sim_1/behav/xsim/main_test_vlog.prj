@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../16-Bit Risc Processor/Design/alu.v" \
+"../../../../../16-Bit Risc Processor/Design/ctrl_unit.v" \
+"../../../../../16-Bit Risc Processor/Design/fake_ram.v" \
+"../../../../../16-Bit Risc Processor/Design/inst_dec.v" \
+"../../../../../16-Bit Risc Processor/Design/pc_unit.v" \
+"../../../../../16-Bit Risc Processor/Design/reg_file.v" \
+"../../../../../16-Bit Risc Processor/TestBench/main_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

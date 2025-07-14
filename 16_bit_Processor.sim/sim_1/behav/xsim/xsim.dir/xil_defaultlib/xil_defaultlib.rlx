@@ -1,0 +1,14 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/Design/alu.v,1752490183,verilog,,C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/Design/ctrl_unit.v,,alu,,,,,,,,
+C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/Design/ctrl_unit.v,1752427927,verilog,,C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/Design/fake_ram.v,,ctrl_unit,,,,,,,,
+C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/Design/fake_ram.v,1752422022,verilog,,C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/Design/inst_dec.v,,fake_ram,,,,,,,,
+C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/Design/inst_dec.v,1752427686,verilog,,C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/Design/pc_unit.v,,inst_dec,,,,,,,,
+C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/Design/pc_unit.v,1752421919,verilog,,C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/Design/reg_file.v,,pc_unit,,,,,,,,
+C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/Design/reg_file.v,1752423672,verilog,,C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/TestBench/main_test.v,,reg_file,,,,,,,,
+C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/TestBench/decoder_unittest.v,1752422753,verilog,,,,decoder_unittest,,,,,,,,
+C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/TestBench/main_test.v,1752428509,verilog,,,,main_test,,,,,,,,
+C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16-Bit Risc Processor/TestBench/regfile_unittest.v,1752423997,verilog,,,,regfile_unittest,,,,,,,,
+C:/Users/TAMAJEET/OneDrive/Desktop/Coding/Vivado_projects/16_bit_Processor/16_bit_Processor.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
