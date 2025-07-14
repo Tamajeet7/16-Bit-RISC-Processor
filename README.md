@@ -13,22 +13,7 @@ This project implements a simple 16-bit RISC (Reduced Instruction Set Computer) 
 - Memory read/write support
 - Fully testbenched using unit-level and top-level simulations
 
-## 📂 Project Structure
-
-├── Design/ # All core Verilog modules
-│ ├── alu.v
-│ ├── ctrl_unit.v
-│ ├── fake_ram.v
-│ ├── inst_dec.v
-│ ├── pc_unit.v
-│ ├── reg_file.v
-├── TestBench/ # Testbenches for verification
-│ ├── decoder_unittest.v
-│ ├── regfile_unittest.v
-│ ├── main_test.v
-├── Screenshots/ # (Optional) Simulation or waveform screenshots
-├── 16_bit_Processor.xpr # Vivado project file (if applicable)
-├── README.md
+<pre lang="markdown"> ## 📂 Project Structure ``` ├── Design/ # All core Verilog modules │ ├── alu.v # ALU: arithmetic and logical operations │ ├── ctrl_unit.v # Control Unit: FSM-based stage control │ ├── fake_ram.v # Fake RAM: simulated memory for data/instruction │ ├── inst_dec.v # Instruction Decoder: extracts opcode, registers, immediate │ ├── pc_unit.v # PC Unit: manages program counter updates │ ├── reg_file.v # Register File: 8 general-purpose registers │ ├── TestBench/ # Testbenches for simulation │ ├── decoder_unittest.v # Testbench for inst_dec module │ ├── regfile_unittest.v # Testbench for reg_file module │ ├── main_test.v # Top-level testbench (full system integration) │ ├── Screenshots/ # (Optional) Waveform images and output snapshots ├── 16_bit_Processor.xpr # Vivado project file ├── README.md # Project overview and instructions ``` </pre>
 
 
 ## ⚙️ Modules Overview
