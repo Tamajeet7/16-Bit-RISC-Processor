@@ -15,22 +15,23 @@ This project implements a simple 16-bit RISC (Reduced Instruction Set Computer) 
 
 ## 📂 Project Structure
 
-'''├── Design/ # All core Verilog modules
-│ ├── alu.v # ALU: arithmetic and logical operations
-│ ├── ctrl_unit.v # Control Unit: FSM-based stage control
-│ ├── fake_ram.v # Simulated RAM for instruction/data
-│ ├── inst_dec.v # Instruction decoder
-│ ├── pc_unit.v # Program counter logic
-│ ├── reg_file.v # 8-register read/write register file
+├── Design/                   # All core Verilog modules
+│   ├── alu.v                 # ALU: arithmetic and logical operations
+│   ├── ctrl_unit.v           # Control Unit: FSM-based stage control
+│   ├── fake_ram.v            # Simulated RAM for instruction/data
+│   ├── inst_dec.v            # Instruction decoder
+│   ├── pc_unit.v             # Program counter logic
+│   ├── reg_file.v            # 8-register read/write register file
 │
-├── TestBench/ # Testbenches for simulation
-│ ├── decoder_unittest.v # Unit test for inst_dec
-│ ├── regfile_unittest.v # Unit test for reg_file
-│ ├── main_test.v # Full system simulation testbench
+├── TestBench/                # Testbenches for simulation
+│   ├── decoder_unittest.v    # Unit test for inst_dec
+│   ├── regfile_unittest.v    # Unit test for reg_file
+│   ├── main_test.v           # Full system simulation testbench
 │
-├── Screenshots/ # (Optional) Waveform images or outputs
-├── 16_bit_Processor.xpr # Vivado project file (optional)
-├── README.md # Project documentation'''
+├── Screenshots/              # (Optional) Waveform images or outputs
+├── 16_bit_Processor.xpr      # Vivado project file (optional)
+├── README.md                 # Project documentation
+
 
 
 ## ⚙️ Modules Overview
