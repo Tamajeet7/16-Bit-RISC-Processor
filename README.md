@@ -1,11 +1,12 @@
-# 16-bit RISC Processor in Verilog
+# 🧠 16-bit RISC Processor in Verilog
 
-This project implements a simple 16-bit RISC (Reduced Instruction Set Computer) processor from scratch using Verilog HDL. The processor supports arithmetic, logic, memory, and control flow instructions in a clean, modular design. It includes instruction decoding, register management, control logic, ALU operations, branching, and a testable memory system.
+This project implements a simple **16-bit RISC-based processor** using Verilog HDL. It supports arithmetic, logic, memory, and control operations through a modular and testbench-driven design.
 
-## 🧠 Key Features
+---
 
-- 16-bit data path
-- 8 general-purpose registers
+## 🚀 Features
+
+- 16-bit instruction and data width
 - Modular design (ALU, Register File, Decoder, Control Unit, PC, RAM)
 - Branch & jump instructions (`JMPA`, `JMPR`)
 - ALU with signed/unsigned operations
@@ -13,8 +14,11 @@ This project implements a simple 16-bit RISC (Reduced Instruction Set Computer) 
 - Memory read/write support
 - Fully testbenched using unit-level and top-level simulations
 
-## 📂 Project Structure
+---
 
+## 📁 Project Structure
+
+```text
 ├── Design/                   # All core Verilog modules
 │   ├── alu.v                 # ALU: arithmetic and logical operations
 │   ├── ctrl_unit.v           # Control Unit: FSM-based stage control
@@ -31,6 +35,7 @@ This project implements a simple 16-bit RISC (Reduced Instruction Set Computer) 
 ├── Screenshots/              # (Optional) Waveform images or outputs
 ├── 16_bit_Processor.xpr      # Vivado project file (optional)
 ├── README.md                 # Project documentation
+
 
 
 
