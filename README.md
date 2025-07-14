@@ -34,8 +34,8 @@ This project implements a simple **16-bit RISC-based processor** using Verilog H
 │
 ├── Screenshots/              # (Optional) Waveform images or outputs
 ├── 16_bit_Processor.xpr      # Vivado project file (optional)
-├── README.md                 # Project documentation
-
+├── README.md                 # Project documentation 
+```
 
 
 
