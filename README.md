@@ -13,7 +13,24 @@ This project implements a simple 16-bit RISC (Reduced Instruction Set Computer) 
 - Memory read/write support
 - Fully testbenched using unit-level and top-level simulations
 
-<pre lang="markdown"> ## 📂 Project Structure ``` ├── Design/ # All core Verilog modules │ ├── alu.v # ALU: arithmetic and logical operations │ ├── ctrl_unit.v # Control Unit: FSM-based stage control │ ├── fake_ram.v # Fake RAM: simulated memory for data/instruction │ ├── inst_dec.v # Instruction Decoder: extracts opcode, registers, immediate │ ├── pc_unit.v # PC Unit: manages program counter updates │ ├── reg_file.v # Register File: 8 general-purpose registers │ ├── TestBench/ # Testbenches for simulation │ ├── decoder_unittest.v # Testbench for inst_dec module │ ├── regfile_unittest.v # Testbench for reg_file module │ ├── main_test.v # Top-level testbench (full system integration) │ ├── Screenshots/ # (Optional) Waveform images and output snapshots ├── 16_bit_Processor.xpr # Vivado project file ├── README.md # Project overview and instructions ``` </pre>
+## 📂 Project Structure
+
+├── Design/ # All core Verilog modules
+│ ├── alu.v # ALU: arithmetic and logical operations
+│ ├── ctrl_unit.v # Control Unit: FSM-based stage control
+│ ├── fake_ram.v # Simulated RAM for instruction/data
+│ ├── inst_dec.v # Instruction decoder
+│ ├── pc_unit.v # Program counter logic
+│ ├── reg_file.v # 8-register read/write register file
+│
+├── TestBench/ # Testbenches for simulation
+│ ├── decoder_unittest.v # Unit test for inst_dec
+│ ├── regfile_unittest.v # Unit test for reg_file
+│ ├── main_test.v # Full system simulation testbench
+│
+├── Screenshots/ # (Optional) Waveform images or outputs
+├── 16_bit_Processor.xpr # Vivado project file (optional)
+├── README.md # Project documentation
 
 
 ## ⚙️ Modules Overview
